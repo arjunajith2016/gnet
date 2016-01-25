@@ -38,6 +38,7 @@ div {
 	overflow: hidden;
 	width: 100%;
     box-shadow: 0 20px 20px rgba(0,0,0,0.3) inset;
+    z-index: 1;
 }
 
 .foo {
