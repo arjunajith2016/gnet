@@ -8,14 +8,14 @@ chatbox = [{'message' : 'Hi! Try sending a message.'},{'message' : 'This is hard
 
 # configuration
 DEBUG = True
-SECRET_KEY = 'development key'
-USERNAME = 'admin'
-PASSWORD = 'default'
+#SECRET_KEY = 'development key'
+#USERNAME = 'admin'
+#PASSWORD = 'default'
 
 # create our little application :)
 app = Flask(__name__)
 Triangle(app)
-app.config.from_object(__name__)
+#app.config.from_object(__name__)
 
 # functions
 def debugdb():
@@ -130,5 +130,4 @@ def not_found(error):
 
 # to start the server
 if __name__ == '__main__':
-    #init_db()
-    app.run()
+    #app.run()
