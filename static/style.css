@@ -1,0 +1,136 @@
+body {
+	font-family: BrandonGotesqueLight, Futura, Tahoma, sans-serif;
+	margin: 0em;
+}
+
+@font-face {
+    font-family: 'brandonGotesqueLight';
+    src: url(Brandon_light.otf);
+}
+
+@font-face {
+    font-family: 'LoveloBlack';
+    src: url(Lovelo_Black.otf);
+}
+
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+div {
+	//border: 1px dotted red;
+}
+
+#navbar {
+	//background-color: rgba(255,255,255,0.3);
+	position: fixed;
+	color: white;
+	left: 0em;
+	top: 0em;
+	height: 4em;
+	overflow: hidden;
+	width: 100%;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3) inset;
+}
+
+.foo {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.button {
+	//background-color: white; //rgb(224,113,67);
+	float: left;
+	display: inline-block;
+	margin: 0em;
+	min-width: 8em;
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: 1.5em;
+	height: 3em;
+}
+
+.button:hover {
+	background-color: rgb(243,109,36);
+}
+
+#logo {
+	color: rgb(243,109,36);
+	padding-top: 1em;
+	font-family: LoveloBlack;
+}
+
+h1#logo {
+	color: white;
+}
+
+#logo:hover {
+	color: white;
+}
+
+#miniprofile {
+	color: white;
+	background-color: rgb(243,109,36);
+	position: fixed;
+	top: 4em;
+	right: 0em;
+	width: 13em;
+	height: 20em;
+	text-align: center;
+}
+
+#miniprofile img{
+	margin: 2em;
+	margin-bottom: 0em;
+}
+
+.header {
+	height: 25em;
+	overflow: hidden;
+    box-shadow: 0 -30px 50px rgba(0,0,0,0.5) inset;
+}
+
+.header img {
+	min-width: 50em;
+	width: 100%;
+	overflow: hidden;
+}
+
+#whiteboard {
+	margin-top: 2em;
+	border: solid 1px black;
+	background-color: rgb(225,225,225);
+	//text-align: center;
+	padding-bottom: 2em;
+}
+
+#output {
+	background-color: white;
+	border: 1px solid red;
+	width: 80%;
+	margin: auto;
+	height: 15em;
+	overflow: scroll;
+}
+
+#chatbox {
+	margin-top: 1em;
+	font-size: 1.2em;
+	position: relative;
+	left:10%;
+	width: 79%;
+}
+
+#chatbutton {
+	visibility: hidden;
+}
+.page {
+	margin: auto;
+	max-width: 40em;
+}
