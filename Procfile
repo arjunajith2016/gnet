@@ -1,1 +1,1 @@
-web: python gnet.py
+web: python gnet.py -p $PORT
