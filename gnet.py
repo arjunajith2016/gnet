@@ -129,5 +129,5 @@ def not_found(error):
     return make_response(jsonify({'error': 'Not found'}), 404)
 
 # to start the server
-if __name__ == '__main__':
+#if __name__ == '__main__':
     #app.run()
